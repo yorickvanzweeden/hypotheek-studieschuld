@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "hypotheek"
+version = "0.1.0"
+description = ""
+authors = ["Yorick van Zweeden <git@yorickvanzweeden.nl>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.39.0"
+pandas = "^2.2.3"
+plotly = "^5.24.1"
+requests-cache = "^1.2.1"
+pydantic = "^2.9.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
